@@ -384,7 +384,7 @@ defineExpose({ open, close })
   &__draggable-thumb {
     width: 40px;
     height: 4px;
-    background: #333333;
+    background: var(--tg-theme-secondary-bg-color);
     border-radius: 8px;
     margin: 0 auto;
   }
