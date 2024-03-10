@@ -355,7 +355,7 @@ defineExpose({ open, close })
     display: flex;
     flex-direction: column;
     border-radius: 16px 16px 0 0;
-    background: #ffffff;
+    background: var(--tg-theme-bg-color);
     overflow-y: hidden;
     transform: translate3d(0, v-bind('translateValueString'), 0);
     height: v-bind('sheetHeightString');
