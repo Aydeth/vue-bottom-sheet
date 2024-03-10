@@ -1,6 +1,6 @@
 import { defineComponent as M, useCssVars as O, ref as a, computed as m, nextTick as x, openBlock as N, createBlock as R, Teleport as z, createElementVNode as r, createVNode as W, Transition as P, withCtx as j, withDirectives as q, vShow as G, normalizeClass as J, renderSlot as _, pushScopeId as K, popScopeId as Q } from "vue";
 import s from "hammerjs";
-const U = (n) => (K("data-v-a4746f39"), n = n(), Q(), n), X = ["aria-hidden"], Z = /* @__PURE__ */ U(() => /* @__PURE__ */ r("div", { class: "bottom-sheet__draggable-thumb" }, null, -1)), ee = [
+const U = (n) => (K("data-v-05788d3a"), n = n(), Q(), n), X = ["aria-hidden"], Z = /* @__PURE__ */ U(() => /* @__PURE__ */ r("div", { class: "bottom-sheet__draggable-thumb" }, null, -1)), ee = [
   Z
 ], te = /* @__PURE__ */ M({
   __name: "VueBottomSheet",
@@ -17,12 +17,12 @@ const U = (n) => (K("data-v-a4746f39"), n = n(), Q(), n), X = ["aria-hidden"], Z
   setup(n, { expose: p, emit: i }) {
     const t = n;
     O((e) => ({
-      "5bb9ae54": D.value,
-      "746ae70d": t.overlayColor,
-      c5fbcbe0: B.value,
-      dce0fd8a: T.value,
-      "978bcc62": $.value,
-      "38fdba80": V.value
+      dcc98260: D.value,
+      "457cfef2": t.overlayColor,
+      "2a983d0a": B.value,
+      "5b22d081": T.value,
+      "29fc8049": $.value,
+      "260b8b86": V.value
     }));
     const c = a(!1), u = a(0), l = a(100), f = a(!1), b = a(0), y = a(null), S = a(null), d = a(null), w = a(null), k = a(null), C = a(null), E = (e) => document.activeElement === e;
     window.addEventListener("keyup", (e) => {
@@ -133,7 +133,7 @@ const oe = (n, p) => {
   for (const [t, c] of p)
     i[t] = c;
   return i;
-}, le = /* @__PURE__ */ oe(te, [["__scopeId", "data-v-a4746f39"]]);
+}, le = /* @__PURE__ */ oe(te, [["__scopeId", "data-v-05788d3a"]]);
 export {
   le as default
 };
